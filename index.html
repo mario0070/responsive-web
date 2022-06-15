@@ -121,6 +121,9 @@
 
             else{
                 fnameElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text.innerHTML="good"
+                text.style.color="green"
 
             }
 
@@ -128,7 +131,6 @@
 
             if(lname==""){
                 lnameElement.classList.add('invalid')
-                form.classList.add('invalid')
                 text1.innerHTML="last name cannot be empty"
                 text1.style.color="red"
             }
@@ -136,12 +138,14 @@
             
             else{
                 lnameElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text1.innerHTML="good"
+                text1.style.color="green"
 
             }
 
             if(email==""){
                 emailElement.classList.add('invalid')
-                form.classList.add('invalid')
                 text2.innerHTML="looks like this is not an email"
                 text2.style.color="red"
             }
@@ -149,12 +153,14 @@
             
             else{
                 emailElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text2.innerHTML="good"
+                text2.style.color="green"
 
             }
 
             if(password==""){
                 passwordElement.classList.add('invalid')
-                form.classList.add('invalid')
                 text3.innerHTML="password cannot be empty"
                 text3.style.color="red"
             }
@@ -162,6 +168,9 @@
             
             else{
                 passwordElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text3.innerHTML="good"
+                text3.style.color="green"
 
             }
 
