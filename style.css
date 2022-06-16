@@ -28,7 +28,7 @@ main{
 }
 
 form{
-    background-color: white;
+    background: url("/img.jpeg");
     border-radius: 5px;
     padding: 2em;
     box-shadow: 0em 7px 0em  rgba(88, 88, 91, 0.3) ;
