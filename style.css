@@ -102,7 +102,7 @@ a{
 #form.invalid .box::before{
     content: "";
     position: absolute;
-    background: url("https://github.com/mario0070/responsive-web/blob/responsive/img.jpeg");
+    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
     right: 20px;
     top: 10px;
     width: 24px;
