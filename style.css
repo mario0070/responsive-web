@@ -28,7 +28,7 @@ main{
 }
 
 form{
-    background: url("/img.jpeg");
+    background-color: white;
     border-radius: 5px;
     padding: 2em;
     box-shadow: 0em 7px 0em  rgba(88, 88, 91, 0.3) ;
@@ -102,7 +102,7 @@ a{
 #form.invalid .box::before{
     content: "";
     position: absolute;
-    background: url("/img.jpeg");
+    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
     right: 20px;
     top: 10px;
     width: 24px;
@@ -115,7 +115,7 @@ a{
 #form.invalid .box1::before{
     content: "";
     position: absolute;
-    background: url("/savy.svg");
+    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
     right: 20px;
     top: 45px;
     width: 24px;
@@ -128,7 +128,7 @@ a{
 #form.invalid .box2::before{
     content: "";
     position: absolute;
-    background: url("/savy.svg");
+    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
     right: 20px;
     top: 45px;
     width: 24px;
@@ -141,7 +141,7 @@ a{
 #form.invalid .box3::before{
     content: "";
     position: absolute;
-    background: url("/savy.svg");
+    background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
     right: 20px;
     top: 45px;
     width: 24px;
