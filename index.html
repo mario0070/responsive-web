@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200&family=Poppins:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png"  href="https://res.cloudinary.com/tokyo007/image/upload/v1655071056/favicon-32x32_imxt5u.png">
+</head>
+<body>
+
+
+    <main>
+
+            <div class="section1">
+
+                <h1>Learn to code by <br> watching others</h1>
+
+                <p>see how experienced developers solve problems in real-time. <br>
+                    watching scripted tutorial is great,but understanding how <br>
+                    developers think is invaluable
+                </p>
+
+            </div>
+
+
+
+            <div class="section2">
+
+                <p class="head"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+
+                <form action="#" id="form"  >
+
+                    <div class="box">
+
+                        <input type="text" id="fname" class="fname" placeholder="First name" onkeydown="validation()" >
+                        <p id="text"></p>
+
+                    </div>
+
+
+                    <div class="box1">
+
+                        <input type="text" id="lname" class="lname" placeholder="Last name" onkeydown="validation()">
+                        <p id="text1"></p>
+
+                    </div>
+
+
+                    <div class="box2">
+
+
+                        <input type="email" id="email" class="email" placeholder="Email address" onkeydown="validation()">
+                        <p id="text2"></p>
+
+                    </div>
+
+
+                    <div class="box3">
+
+                        <input type="password" id="password" class="password" placeholder="Password" onkeydown="validation()">
+                        <p id="text3"></p>
+
+                    </div>
+
+                        <input type="submit" name="submit" value="CLAIM YOUR FREE TRIAL" onclick="validation()">
+
+                        <p><small> By clicking the button,you are agreeing to <a href="">Terms and Service</a></small></p>
+
+                   
+
+                </form>
+
+                
+
+            </div>
+
+
+    </main>
+
+   
+<script>
+ 
+ function validation(){
+            var form=document.getElementById("form");
+            var fname=document.getElementById("fname").value;
+            var lname=document.getElementById("lname").value;
+            var email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+            var text=document.getElementById("text");
+            var text1=document.getElementById("text1");
+            var text2=document.getElementById("text2");
+            var text3=document.getElementById("text3");
+            let fnameElement = document.getElementById("fname");
+            let lnameElement = document.getElementById("lname");
+            let emailElement = document.getElementById("email");
+            let passwordElement = document.getElementById("password");
+            document.getElementsByClassName("fname")[0].placeholder=""
+            document.getElementsByClassName("lname")[0].placeholder=""
+            document.getElementsByClassName("email")[0].placeholder="email@example/com"
+            document.getElementsByClassName("password")[0].placeholder=""
+
+
+           
+
+            if(fname==""){
+                fnameElement.classList.add('invalid')
+                form.classList.add('invalid')
+                text.innerHTML="first name cannot be empty"
+                text.style.color="red"
+
+            }
+
+          
+
+            else{
+                fnameElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text.innerHTML="good"
+                text.style.color="green"
+
+            }
+
+         
+
+            if(lname==""){
+                lnameElement.classList.add('invalid')
+                text1.innerHTML="last name cannot be empty"
+                text1.style.color="red"
+            }
+
+            
+            else{
+                lnameElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text1.innerHTML="good"
+                text1.style.color="green"
+
+            }
+
+            if(email==""){
+                emailElement.classList.add('invalid')
+                text2.innerHTML="looks like this is not an email"
+                text2.style.color="red"
+            }
+
+            
+            else{
+                emailElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text2.innerHTML="good"
+                text2.style.color="green"
+
+            }
+
+            if(password==""){
+                passwordElement.classList.add('invalid')
+                text3.innerHTML="password cannot be empty"
+                text3.style.color="red"
+            }
+
+            
+            else{
+                passwordElement.classList.remove('invalid')
+                form.classList.remove('invalid')
+                text3.innerHTML="good"
+                text3.style.color="green"
+
+            }
+
+
+           
+
+
+
+
+ }
+
+
+</script>
+
+</body>
+</html>
