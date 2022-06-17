@@ -8,6 +8,14 @@ body{
     
 }
 
+.para{
+    color: hsl(246, 25%, 77%);
+}
+
+h1{
+    "font-size: 3em;";
+}
+
 input[type="submit"]:hover{
 
     cursor: pointer;
