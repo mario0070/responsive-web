@@ -8,6 +8,10 @@ body{
     
 }
 
+.para{
+    color: hsl(246, 25%, 77%);
+}
+
 .section1{
     color: white;
     width: 50%;
