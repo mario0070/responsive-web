@@ -2,19 +2,24 @@
 body{
     background:url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/bg-intro-desktop_a83iai.png") hsl(0, 100%, 74%);
     font-size: 16px;
-    font-family:'Poppins';
-    font-weight:  400, 500, 600, 700;
+    font-family:'Poppins', sans-serif;
     width: 1440px;
     
+}
+
+.heading{
+    font-size: 3em;
+    line-height: 60px;
+}
+
+input::placeholder{
+    font-weight: 700;
 }
 
 .para{
     color: hsl(246, 25%, 77%);
 }
 
-h1{
-    font-size: 3em;
-}
 
 input[type="submit"]:hover{
 
@@ -25,16 +30,19 @@ input[type="submit"]:hover{
 
 .section1{
     color: white;
-    width: 50%;
+    width: 70%;
     padding-top: 8em;
+    line-height: 2em;
     margin-left: 10em;
+    font-family:'Poppins', sans-serif;
 
 }
 
 .section2{
-    width: 50%;
-    margin-right: 20em;
+    width: 60%;
+    margin-right: 10em;
     padding-top: 1em;
+    font-family:'Poppins', sans-serif;
 
 }
 
@@ -118,7 +126,7 @@ a{
     content: "";
     position: absolute;
     background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
+    right: 30px;
     top: 10px;
     width: 24px;
     height: 24px;
@@ -131,7 +139,7 @@ a{
     content: "";
     position: absolute;
     background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
+    right: 30px;
     top: 45px;
     width: 24px;
     height: 24px;
@@ -144,7 +152,7 @@ a{
     content: "";
     position: absolute;
     background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
+    right: 30px;
     top: 45px;
     width: 24px;
     height: 24px;
@@ -157,7 +165,7 @@ a{
     content: "";
     position: absolute;
     background: url("https://res.cloudinary.com/tokyo007/image/upload/v1655071056/icon-error_i4zq0r.svg");
-    right: 20px;
+    right: 30px;
     top: 45px;
     width: 24px;
     height: 24px;
